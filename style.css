@@ -1,0 +1,76 @@
+/* Vibrant contrasting background */
+body {
+    background-color: #0d1b2a; /* Dark navy blue */
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  /* ID selector */
+  #main-title {
+    color: #ffffff;
+    background-color: #1b263b; /* Darker blue-gray */
+    border: 2px solid #e0e1dd; /* Light gray border */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Class selector - First paragraph */
+  .description {
+    color: #000000;
+    background-color: #e0e1dd; /* Light gray */
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 5px solid #415a77; /* Blue-gray */
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Second paragraph - Different font */
+  .second-paragraph {
+    color: #000000;
+    background-color: #e0e1dd; /* Light gray */
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 5px solid #ef476f; /* Pinkish-red */
+    border-radius: 8px;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  /* Element selector - button */
+  button {
+    background-color: #ef476f; /* Vibrant pinkish-red */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d6336c; /* Darker pink on hover */
+  }
+  
+  /* Style an image */
+  .styled-image {
+    border: 5px solid #e0e1dd; /* Light gray */
+    padding: 8px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  /* Style h2 */
+  h2 {
+    color: #ffffff;
+    background-color: #415a77; /* Blue-gray */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
